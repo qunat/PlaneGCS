@@ -1,0 +1,10 @@
+^F:\PROJECT\PLANEGCS\BUILD\CMAKEFILES\EC2860F7F2DE0F974D40FAEF375F97F8\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/project/PlaneGCS -BF:/project/PlaneGCS/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/project/PlaneGCS/build/GCS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

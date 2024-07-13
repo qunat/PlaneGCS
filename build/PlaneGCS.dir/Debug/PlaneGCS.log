@@ -1,0 +1,25 @@
+﻿  Building Custom Rule F:/project/PlaneGCS/CMakeLists.txt
+  GCS.cpp
+F:\project\boost_1_74_0\boost/detail/iterator.hpp(13): message : This header is deprecated. Use <iterator> instead.
+F:\project\PlaneGCS\src\GCS.cpp(600,24): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+F:\project\PlaneGCS\src\GCS.cpp(3640,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\project\PlaneGCS\src\GCS.cpp(3909,30): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\project\PlaneGCS\src\GCS.cpp(4445,39): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+  F:\project\PlaneGCS\src\GCS.cpp(4445,39):
+  模板实例化上下文(最早的实例化上下文)为
+  	F:\project\PlaneGCS\src\GCS.cpp(3997,17):
+  	查看对正在编译的函数 模板 实例化“void GCS::System::identifyConflictingRedundantConstraints<Eigen::FullPivHouseholderQR<Eigen::MatrixXd>>(GCS::Algorithm,const T &,const std::map<int,int,std::less<int>,std::allocator<std::pair<const int,int>>> &,const std::map<int,int,std::less<int>,std::allocator<std::pair<const int,int>>> &,GCS::VEC_pD &,Eigen::MatrixXd &,int,int,int &)”的引用
+          with
+          [
+              T=Eigen::FullPivHouseholderQR<Eigen::MatrixXd>
+          ]
+  
+F:\project\PlaneGCS\src\GCS.cpp(4449,55): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\project\PlaneGCS\src\GCS.cpp(4470,48): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+F:\project\PlaneGCS\src\GCS.cpp(4525,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Geo.cpp
+  Constraints.cpp
+  SubSystem.cpp
+  qp_eq.cpp
+  正在生成代码...
+  PlaneGCS.vcxproj -> F:\project\PlaneGCS\build\Debug\PlaneGCS.dll
